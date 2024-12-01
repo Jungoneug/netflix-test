@@ -1,0 +1,143 @@
+body{
+  margin: 0;
+  background-color: black;
+  height: 1100px;
+}
+.logobox>img{
+  width: 13% ;
+  height: 70px;
+  margin: 0;
+  position: absolute;
+  top: 0px;
+  cursor: pointer;
+}
+.mainbox>img{
+  width: 100%;
+  margin: 0;
+}
+h1{
+  color: white;
+  font-size: 2em;
+  position: absolute;
+  top: 300px;
+  left: 100px;
+  font-family: sans-serif;
+}
+pre{
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 350px;
+  left: 100px;
+  font-family: sans-serif;
+}
+.a-button{
+  position: absolute;
+  color: white;
+  font-size: 18px;
+  font-family: sans-serif;
+  background-color: rgb(169, 169, 169,0.5);
+  top: 450px;
+  left: 100px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.b-button{
+  position: absolute;
+  color: white;
+  font-family: sans-serif;
+  font-size: 18px;
+  background-color: rgb(169, 169, 169,0.5);
+  top: 450px;
+  left: 190px;
+  border: none;
+  cursor: pointer;
+  margin-left: 20px;
+  margin-right: 20px;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  padding-left: 20px;
+  padding-right: 20px;
+  font-weight: 700;
+  border-radius: 5px;
+}
+.a-button:hover{
+  background-color: black ;
+  color: white;
+}
+.a-button:active{
+  opacity: 0.3;
+}
+.b-button:hover{
+  background-color: black ;
+  color: white;
+}
+.b-button:active{
+  opacity: 0.3
+}
+h2{
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+h3{
+  padding-top: 250px;
+  color: white;
+  font-family: sans-serif;
+  font-size: 25px;
+  margin: 0;
+}
+.container1{
+  margin: 0;
+  border: 0;
+  position:absolute;
+  width: 100%;
+  height: 205px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.flex-item>img{
+  width: 100%;
+  height: 100px;
+  transition: opacity 0.5s;
+  
+}
+.flex-item>img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+.container2{
+  position:absolute;
+  width: 100%;
+  height: 205px;
+  display: flex;
+  justify-content: space-around;
+  overflow: hidden;
+}
+.flex-item>img{
+  width: 100%;
+  height: 200px;
+  transition: opacity 0.5s;
+  
+}
+.flex-item>img:hover{
+  opacity: 0.5;
+  cursor: pointer;
+  transition: 0.5s;
+  transform: scale(1.1);
+}
+
+
+
